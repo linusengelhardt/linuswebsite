@@ -112,9 +112,6 @@ a {
 	.button1 {
 	margin-right: 0px;
 	}
-}
-
-@media only screen and (max-width: 500px) {
 	.container {
 		width: 100%;
 		}
