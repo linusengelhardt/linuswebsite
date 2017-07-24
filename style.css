@@ -1,0 +1,115 @@
+body {
+      	background: white;
+       	background-image: url("images/background.jpg"); 
+	 	width:100%;
+	 	height: 100%;
+	 	background-repeat: no-repeat;
+	 	background-size: cover;
+		position: absolute;
+		margin: 0%;
+      }
+
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#buttons {
+ 	width: 80%;
+ 	margin: 0 auto;
+  	text-align: center;
+}
+
+
+.button1 {
+	width: 150px;
+	margin-right: 25px;
+	margin-top: -30px;
+}
+
+.button2 {
+	width: 150px;
+	margin-top: -30px;
+}
+
+#images{
+    text-align:center;
+}
+
+
+.button1:hover {
+	cursor: pointer;
+} 
+
+
+.button2:hover {
+	cursor: pointer;
+} 
+
+.icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+	width: 170px;
+}
+
+.name {
+	font-family: 'Roboto-Thin', sans-serif;
+	letter-spacing: 1px;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+#social {
+ 	width: 80%;
+ 	margin: 0 auto;
+  	text-align: center;
+  	margin-top: 30%;
+
+}
+
+#social a {
+	cursor: pointer
+}
+
+.social1 {
+	width: 30px;
+	margin-right: 20px;
+}
+
+.social2 {
+	width: 30px;
+}
+
+#instagram {
+	width: 30px;
+	background-image: url("images/instagram.png") no - repeat center center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+
+#instagram img{
+    vertical-align: top;
+    width: 100%; /* max width */
+    opacity: 100;  /* make it transparent */
+}
+
+@media only screen and (max-width: 1000px) {
+	.button2 {
+	margin-top: -95px;
+	}
+	.button1 {
+	margin-right: 0px;
+	}
+}
